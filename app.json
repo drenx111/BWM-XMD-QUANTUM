@@ -16,7 +16,7 @@
     },
     "AUTO_REJECT_CALL": {
       "description": "Enter yes for your bot to auto reject calls",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "AUTO_BIO": {
@@ -36,7 +36,7 @@
     },
     "AUTO_READ_STATUS": {
       "description": "Your status will be read automatically (type yes to activate or no to deactivate)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_DOWNLOAD_STATUS": {
@@ -61,7 +61,7 @@
     },
     "PUBLIC_MODE": {
       "description": "Type yes for public mode or no for private mode",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -75,8 +75,8 @@
       "required": true 
     },
     "OWNER_NUMBER": {
-      "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "",
+      "description": "27796742970",
+      "value": "true",
       "required": true 
     },
    "STATUS_REACT_EMOJIS": {
@@ -96,12 +96,12 @@
     },
     "OWNER_NAME": {
       "description": "Owner name",
-      "value": "Ibrahim Adams",
+      "value": "DBY",
       "required": false
     },
     "SESSION_ID": {
-      "description": "Your session ID",
-      "value": "",
+      "description": "BWM-XMD;;;H4sIAAAAAAAAA61VW47iRhTdS/2CBr8fSC3FxjZ2gwEDpoEoH4VdNm78oqpssEctZQNZQpSf/GQJ2c6sIEuITHdnWslkpiPFX+Wqq3vPuXXOrY8gLxKCJqgBw4+gxEkNKeqWtCkRGAK9iiKEQR+EkEIwBJV+7Ilx9eALU3u5UMr7ZEuV6d6/uuIEhvNNzxLqsTXYYobcgac+KKtDmgRfSShQPLpvNhfi7CFrzmrIbfZmGoXnwQaV1mXR0yRzUwpj0+gSdhlhgpM8NssjyhCG6QQ1C5jg98EnM5St3MqcJR7meOI3mcjtWL7F0kBL47McunWIV7WXbJT3wUf3/uG6CujeHNvXaMu77WQXTKeOxG8mHqvFRsM8Og62LlvlGT5J4hyFTohymtDm/X2fiw973/Yz72Gtlwvep3Ke+60ZtyepZibGlLHGmeUd4432PuCHg1cY2x0/34yX00pVT/mpZt2lnZaaMvOvl5yXe02qyfMjeQt8gV+1cvovfW/uFyZDxTAyeZbMDoGzX/Ju9Wgru9gsHNwea1vlW7U+8Jf3wT/5jnbQk/m0dWsxepSbLCthuZpfTFrM2uZcx8vQKds40C+f4UNa4a+h3NTx+NLScSkiwYr2u8k2NPm90RJ/7UwcdnFdVxeL41h7NtD22czjk4NzCFYLXT8/jg/yWENuIceIJbPpbFqv9DweGFp8d2N0Qo0TgiH71AcYxQmhGNKkyLs9Qe4DGNYrFGBEb90Fo3QXXRhU7ndzI4sMtsSrQa6uOUlpHq/LMxmHu3WsRSfDde9AH5S4CBAhKLQTQgvcuIgQGCMCht/fLqrjjFFWUHSfhGAIOFlWJVngVJn5jny4HCElsCw/5IiCPohwkbkIDCmuUB/c4lWdYRnJEGVLF/iRqrMKL6mWJAuSYVgio3QEs+ea6yRDhMKsBENWFhmJZ0VJfur/PzB4hpV0wzR4S9FEXbdUdcRrqqQLoiZzgv4NGMr/BGPEW9bI4ERDYjVVV3VeGykMJyiGooicJbFfh6EwTz/0QY6u9NlLnQJ4tg+iBBPq51WZFjB8NdrrIQyCosrpqsmDUbdAGAzfbCNKkzwmHbEqhzg4JjUadTzAMIIpQX+JDmEUvnJ5GaSjIuy8sJ8vbMFZz0GHvUv099YMWfGf3UlvUSzPMrwoywrDigIndJHdQR/ksMsFPv3866cff/rjl99+JzCDXXtegHd1QkRhkpKur+6IKw3Gi3d5col3Oy3RtImmdQJ/Jfpq4meX+D0fBqhVsYCc2Bo8pr0Dq3DHo914ZEGDNf+Y29tVU+le8aUkYAhmnqDst9sHJXgUjtvdKQvYota9clQ1ZsW5h/EUb3qCaCqa2Zj3Uruq1JlzYLzW3q5adzHSJCVv2UWyQlHjH1qrjpTZyLvrqoWoTgL0ttiB18XwRAcDLmbXBkulh9wNF8xV4EeDJPWyycqqcdCSybKovKt9r+L5cvJgGOF5y3tacC53jmq75y0Wc2uZ6tPJwynSvOfxchtv6cuzkrw4P7n9Rgm6TemXy/jWlT7j7oTHPPXfpHgZ+/8yOvXNIh3nNhnAnp04eiSIUaZGs2K3VE5TQ96aqiBeWYbg2J+Ap84BZQppVOAMDAHMQ1zcBIOLqlOyk0fFV4qNdMcxXoinkFDtszu+5Hv+OWqBi9KG5NgJdiIcbaGTeqOV5YpC+mo2oHWfMT+Dpz8BKeQxHxsJAAA=",
+      "value": "true",
       "required": true
     },    
     "STARTING_BOT_MESSAGE": {
@@ -111,7 +111,7 @@
     },
     "PRESENCE": {
       "description": "Presence mode: 1=online, 2=typing, 3=recording",
-      "value": "",
+      "value": "2",
       "required": false
     },
     "ANTIDELETE_SENT_INBOX": {
@@ -126,7 +126,7 @@
     },	  
     "GROUPANTILINK": {
       "description": "Enable anti-link in groups (yes/no)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "CHATBOT": {
